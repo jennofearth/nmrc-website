@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Partners &amp; Team — New Mexico Reforestation Center</title>
+  <meta name="description" content="NMRC brings together university researchers, state agencies, federal land managers, and tribal partners under a shared scientific framework for reforestation across New Mexico." />
+  <link rel="canonical" href="https://nmreforestationcenter.org/partners.html" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    /* Contact form styles */
+    .contact-form {
+      background: var(--white);
+      border: 1px solid var(--gray-border);
+      border-radius: var(--radius-md);
+      padding: 40px;
+      max-width: 640px;
+    }
+    .form-group {
+      margin-bottom: 22px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--charcoal);
+      margin-bottom: 6px;
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1px solid var(--gray-border);
+      border-radius: var(--radius-sm);
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      color: var(--charcoal);
+      background: var(--white);
+      transition: border-color var(--transition), box-shadow var(--transition);
+      appearance: none;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--green-mid);
+      box-shadow: 0 0 0 3px rgba(45,94,53,0.12);
+    }
+    .form-group textarea { min-height: 120px; resize: vertical; }
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    @media (max-width: 560px) { .form-row { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__brand" aria-label="NMRC Home">
+          <div class="nav__logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22V12"/>
+              <path d="M12 12C12 12 7 9 7 5a5 5 0 0 1 10 0c0 4-5 7-5 7z"/>
+              <path d="M9 17c-2 1-4 2-4 4"/>
+              <path d="M15 17c2 1 4 2 4 4"/>
+            </svg>
+          </div>
+          <div class="nav__name">
+            <span class="nav__name-short">NMRC</span>
+            <span class="nav__name-long">New Mexico Reforestation Center</span>
+          </div>
+        </a>
+        <ul class="nav__links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="partners.html" class="active">Partners</a></li>
+          <li><a href="news.html">News</a></li>
+        </ul>
+        <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Page Hero ── -->
+  <section class="page-hero" aria-labelledby="pageTitle">
+    <div class="container">
+      <div class="page-hero__content">
+        <span class="label">Partners &amp; Team</span>
+        <h1 id="pageTitle">Built on Institutional Collaboration</h1>
+        <p>NMRC's reach depends on a network of research, management, and funding partners who share the goal of restoring New Mexico's forests at meaningful scale.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Partner Institutions ── -->
+  <section class="section" aria-labelledby="partnerHeading">
+    <div class="container">
+      <div class="section-header">
+        <span class="label">Institutional Partners</span>
+        <h2 id="partnerHeading">Our Partner Network</h2>
+        <p>NMRC operates through a collaborative structure that spans university research programs, state and federal agencies, tribal governments, and nonprofit partners.</p>
+      </div>
+
+      <div style="margin-bottom: 48px;">
+        <h3 style="font-size:1rem; font-weight:600; color:var(--gray); letter-spacing:0.06em; text-transform:uppercase; margin-bottom:20px; font-family:var(--font-body);">University &amp; Research Institutions</h3>
+        <div class="partner-grid">
+          <div class="partner-tile">
+            <div class="partner-tile__initials">NMSU</div>
+            <h4>New Mexico State University</h4>
+            <p>Administrative home and primary research institution for NMRC. Faculty in the College of Agricultural, Consumer and Environmental Sciences lead core research programs.</p>
+          </div>
+          <div class="partner-tile">
+            <div class="partner-tile__initials">UNM</div>
+            <h4>University of New Mexico</h4>
+            <p>Collaborative research on forest ecology, disturbance dynamics, and watershed hydrology in upper Rio Grande systems.</p>
+          </div>
+          <div class="partner-tile">
+            <div class="partner-tile__initials">NMHU</div>
+            <h4>New Mexico Highlands University</h4>
+            <p>Regional partner contributing applied research capacity and student training in forest restoration and natural resources management.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 48px;">
+        <h3 style="font-size:1rem; font-weight:600; color:var(--gray); letter-spacing:0.06em; text-transform:uppercase; margin-bottom:20px; font-family:var(--font-body);">State Agencies</h3>
+        <div class="partner-grid">
+          <div class="partner-tile">
+            <div class="partner-tile__initials">NMSF</div>
+            <h4>NM State Forestry Division</h4>
+            <p>Key operational partner for reforestation planning, post-fire recovery coordination, and nursery production on state-managed lands.</p>
+          </div>
+          <div class="partner-tile">
+            <div class="partner-tile__initials">NMDGF</div>
+            <h4>NM Dept. of Game &amp; Fish</h4>
+            <p>Collaboration on wildlife habitat restoration, post-fire reforestation in game-managed areas, and joint monitoring protocols.</p>
+          </div>
+          <div class="partner-tile">
+            <div class="partner-tile__initials">EMNRD</div>
+            <h4>Energy, Minerals &amp; Natural Resources Dept.</h4>
+            <p>Interagency coordination on forest health, watershed function, and alignment between reforestation priorities and state natural resource policy.</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 style="font-size:1rem; font-weight:600; color:var(--gray); letter-spacing:0.06em; text-transform:uppercase; margin-bottom:20px; font-family:var(--font-body);">Federal &amp; Nonprofit Partners</h3>
+        <div class="partner-grid">
+          <div class="partner-tile">
+            <div class="partner-tile__initials">USFS</div>
+            <h4>USDA Forest Service</h4>
+            <p>Research collaboration with the Rocky Mountain Research Station and operational coordination with New Mexico's National Forests on restoration planting and monitoring.</p>
+          </div>
+          <div class="partner-tile">
+            <div class="partner-tile__initials">NRCS</div>
+            <h4>USDA Natural Resources Conservation Service</h4>
+            <p>Federal funder and collaborator on watershed-scale restoration research and implementation programs serving private and tribal landowners.</p>
+          </div>
+          <div class="partner-tile">
+            <div class="partner-tile__initials">RGWF</div>
+            <h4>Rio Grande Water Fund</h4>
+            <p>Strategic alignment with RGWF's large-scale forest health and watershed restoration investment in the upper Rio Grande basin.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Leadership ── -->
+  <section class="section section--cream" aria-labelledby="teamHeading">
+    <div class="container">
+      <div class="section-header">
+        <span class="label">Leadership</span>
+        <h2 id="teamHeading">NMRC Leadership</h2>
+        <p>NMRC is led by a small core team with deep expertise in forest ecology, restoration science, water resources, and institutional partnership management.</p>
+      </div>
+      <div class="team-grid">
+
+        <div class="team-card">
+          <div class="team-card__avatar">JP</div>
+          <h4>Dr. Jennifer Pickering Auchter</h4>
+          <div class="team-card__role">Director, NMRC</div>
+          <div class="team-card__affil">New Mexico State University</div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-card__avatar" style="background:var(--cream-dark);">—</div>
+          <h4>Research Director</h4>
+          <div class="team-card__role">Position Forthcoming</div>
+          <div class="team-card__affil">NMRC</div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-card__avatar" style="background:var(--cream-dark);">—</div>
+          <h4>Operations &amp; Partnerships Coordinator</h4>
+          <div class="team-card__role">Position Forthcoming</div>
+          <div class="team-card__affil">NMRC</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Partnership Opportunities ── -->
+  <section class="section" aria-labelledby="opportunitiesHeading">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="label">Work With Us</span>
+        <h2 id="opportunitiesHeading">Partnership Opportunities</h2>
+        <p>NMRC engages partners across several distinct pathways, depending on institutional type and interest.</p>
+      </div>
+      <div class="card-grid card-grid--3">
+
+        <div class="card">
+          <div class="card__body">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Research Collaboration</h3>
+            <p class="card__text">We welcome co-investigator relationships with university and agency researchers working on complementary questions. NMRC can provide access to field sites, monitoring networks, seedling production infrastructure, and data sets.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__body">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Land Management Partners</h3>
+            <p class="card__text">Federal and state land managers can engage NMRC as a technical resource for reforestation planning, planting specification development, and monitoring program design on managed lands across New Mexico.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__body">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="1" x2="12" y2="23"/>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Funding &amp; Grants</h3>
+            <p class="card__text">Foundations, utilities, and state water programs interested in supporting forest-watershed restoration research can discuss collaborative funding arrangements with NMRC leadership directly.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact Form ── -->
+  <section class="section section--cream" id="contact" aria-labelledby="contactHeading">
+    <div class="container">
+      <div class="split">
+        <div class="split__text">
+          <span class="label">Get in Touch</span>
+          <h2 id="contactHeading">Contact NMRC</h2>
+          <p>Whether you are a researcher, agency partner, funder, or journalist, we welcome your inquiry. Use the form to reach the NMRC team and we will respond within a few business days.</p>
+          <p style="margin-top:24px;">For media inquiries, technical report requests, or partnership discussions, you may also reach us directly:</p>
+          <p>
+            <strong>New Mexico Reforestation Center</strong><br>
+            New Mexico State University<br>
+            Las Cruces, NM<br>
+            <a href="mailto:info@nmreforestationcenter.org" style="color:var(--green-mid);">info@nmreforestationcenter.org</a>
+          </p>
+        </div>
+        <div>
+          <form class="contact-form" action="#" method="POST" aria-label="Contact form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Jane" autocomplete="given-name" />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Smith" autocomplete="family-name" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" placeholder="you@organization.org" autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="organization">Organization</label>
+              <input type="text" id="organization" name="organization" placeholder="Agency, university, or company" />
+            </div>
+            <div class="form-group">
+              <label for="inquiryType">Nature of inquiry</label>
+              <select id="inquiryType" name="inquiryType">
+                <option value="">Select one</option>
+                <option value="research">Research collaboration</option>
+                <option value="land-management">Land management / technical assistance</option>
+                <option value="funding">Funding or partnership</option>
+                <option value="media">Media inquiry</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Describe your inquiry or interest..."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary" style="width:100%;">Send inquiry</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="nav__logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22V12"/>
+              <path d="M12 12C12 12 7 9 7 5a5 5 0 0 1 10 0c0 4-5 7-5 7z"/>
+              <path d="M9 17c-2 1-4 2-4 4"/>
+              <path d="M15 17c2 1 4 2 4 4"/>
+            </svg>
+          </div>
+          <div class="footer__brand-name">New Mexico Reforestation Center</div>
+          <div class="footer__brand-sub">NMRC</div>
+          <p class="footer__desc">A multi-institutional initiative advancing science-based reforestation as water and climate infrastructure for New Mexico.</p>
+        </div>
+        <div class="footer__col">
+          <h5>Site</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="partners.html">Partners</a></li>
+            <li><a href="news.html">News</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Research</h5>
+          <ul>
+            <li><a href="research.html#provenance">Provenance Trials</a></li>
+            <li><a href="research.html#production">Seedling Production</a></li>
+            <li><a href="research.html#monitoring">Site Monitoring</a></li>
+            <li><a href="research.html#publications">Publications</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Connect</h5>
+          <ul>
+            <li><a href="partners.html">Partnerships</a></li>
+            <li><a href="partners.html#contact">Contact</a></li>
+            <li><a href="news.html">Press</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__copy">&copy; 2026 New Mexico Reforestation Center. All rights reserved.</div>
+        <div class="footer__affil">Administratively housed at New Mexico State University.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
